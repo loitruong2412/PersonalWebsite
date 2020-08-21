@@ -5,9 +5,22 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: steelblue;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.navbar {
+  font-size: 1.2rem;
+}
+
+.navbar .navbar-toggler .navbar-toggler-bar {
+  color: white;
+}
+
+.brand .n-logo {
+  max-width: 300px;
 }
