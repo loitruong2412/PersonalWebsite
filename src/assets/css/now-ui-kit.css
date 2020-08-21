@@ -4954,6 +4954,11 @@ img {
     opacity: 0; }
   .profile-photo .profile-photo-small {
     margin-left: -2px; }
+  .profile-page .wrapper .section .container .resume-item .description {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+  }
   .button-dropdown {
     display: none; }
   .section-nucleo-icons .container .row > [class*="col-"]:first-child {
@@ -4967,6 +4972,13 @@ img {
   .navbar-nav .nav-link i.fa,
   .navbar-nav .nav-link i.now-ui-icons {
     opacity: .5; }
+  .nav-pills.nav-pills-just-icons .nav-item .nav-link, .nav-pills.nav-pills-just-icons .nav-item .nav-link i {
+    height: 40px;
+    width: 40px;
+  }
+  .nav-pills.nav-pills-just-icons .nav-item .nav-link i {
+    line-height: 40px;
+  }
   .section-images {
     height: 500px;
     max-height: 500px; }
@@ -4980,6 +4992,7 @@ img {
       right: 5%;
       max-width: 135px;
       top: 93%; } }
+
 
 @media screen and (min-width: 992px) {
   .navbar-collapse:not(.has-image) {
