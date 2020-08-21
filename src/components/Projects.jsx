@@ -66,7 +66,7 @@ export default function Projects() {
                   <CardBody>
                     <CardTitle tag="h4">Boba or Bust</CardTitle>
                     <CardSubtitle>Java - Android Studio</CardSubtitle>
-                    <CardText>An interactive Android bubble tea-themed mobile game that utilizes accelerometer sensor to allow users to tilt their device to catch the bubbles and stores users’ high scores using SQLite.</CardText>
+                    <CardText>An interactive Android bubble tea-themed mobile game through collaboration with 3 teammatese that utilizes accelerometer sensor to allow users to tilt their device to catch the bubbles and stores users’ high scores using SQLite.</CardText>
                     <Button
                       color="info"
                       target="_blank"
@@ -112,7 +112,7 @@ export default function Projects() {
                   <CardBody>
                     <CardTitle tag="h4">Interactive Painting App</CardTitle>
                     <CardSubtitle>C++</CardSubtitle>
-                    <CardText>A painting app written in C++ that uses UDP socket to communicate between the server and its clients and allows multiple users to draw on the same canvas over thee Internet. The app's GUI supports a variety of colors and brush types.</CardText>
+                    <CardText>A painting app written in C++ that uses UDP socket to communicate between the server and its clients and allows multiple users to draw on the same canvas over thee Internet. The app's GUI supports a variety of colors and brush types. This was done in collaboration with 3 teammates.</CardText>
                     <Button
                       color="info"
                       target="_blank"
@@ -127,7 +127,7 @@ export default function Projects() {
                   <CardBody>
                     <CardTitle tag="h4">Image Processing App</CardTitle>
                     <CardSubtitle>Java</CardSubtitle>
-                    <CardText>An application written in Java for processing images with filters such as sepia, greyscale, blur, sharpen, mosaic by using k-means clustering algorithm and matrix multiplication. The app has a GUI (using Java Swing) that allows users to undo or redo the steps.</CardText>
+                    <CardText>An application developed by 2 teammates and written in Java for processing images with filters such as sepia, greyscale, blur, sharpen, mosaic by using k-means clustering algorithm and matrix multiplication. The app has a GUI (using Java Swing) that allows users to undo or redo the steps.</CardText>
                     <Button
                       color="info"
                       href="https://github.com/loitruong2412/Academic-Projects/tree/master/Image%20Processing%20Application%20in%20Java"
