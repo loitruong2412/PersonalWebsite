@@ -8,6 +8,7 @@ import {
   CardFooter,
   Form,
   FormFeedback,
+  FormGroup,
   Input,
   InputGroupAddon,
   InputGroupText,
@@ -172,6 +173,7 @@ export default class Contact extends Component {
                           </InputGroupText>
                         </InputGroupAddon>
                         <Input
+                          // className={(this.state.validate.emailState === 'has-success' ? 'form-control-success' : 'form-control-danger')}
                           name="email"
                           placeholder="Email..."
                           type="email"

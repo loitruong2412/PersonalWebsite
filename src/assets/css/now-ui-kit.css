@@ -1908,6 +1908,7 @@ fieldset[disabled]
       border: 1px solid #f96332;
       border-left: none;
       background-color: transparent; }
+
   .has-success .form-control,
   .has-error .form-control,
   .has-success .form-control:focus,
@@ -2155,6 +2156,10 @@ textarea.form-control {
     border-left: none;
     border-top: none;
     border-right: none; }
+    .was-validated textarea.form-control:invalid, textarea.form-control.is-invalid,
+    .was-validated textarea.form-control:valid, textarea.form-control.is-valid {
+      background-position: top calc(2.375em + .1875rem) right calc(.375em + .1875rem);
+    }
 
 .has-success.form-group .form-control,
 .has-success.form-group.no-border .form-control,
@@ -5283,13 +5288,19 @@ img {
     margin-left: 0;
     margin-bottom: 30px; } }
 
-@media (min-width: 576px) {
+@media (max-width: 575px) {
   .card-group {
     flex-flow: column;
-  }  
+  }
+    .card-group .text-center {
+      width: 80%;
+    }
 }
   
 @media screen and (max-width: 576px) {
+  .page-header .container {
+    margin-top: 5em;
+  }
   .navbar[class*='navbar-expand-'] .container {
     margin-left: 0;
     margin-right: 0; }

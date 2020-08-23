@@ -39,7 +39,7 @@ export default function Projects() {
           <Container>
             <Col className="ml-auto mr-auto" md="12" sm="auto">
               <CardGroup style={{ width: "100%" }}>
-                <Card className="text-center" style={{ width: "30rem", margin: "2rem" }}>
+                <Card className="text-center" style={{ margin: "2rem" }}>
                   <CardImg top src={require("../assets/img/projects/spendwise.png")} alt="..." />
                   <CardBody>
                     <CardTitle tag="h4">Spendwise</CardTitle>
@@ -61,7 +61,7 @@ export default function Projects() {
                     </Button>
                   </CardBody>
                 </Card>
-                <Card className="text-center" style={{ width: "30rem", margin: "2rem" }}>
+                <Card className="text-center" style={{ margin: "2rem" }}>
                   <CardImg top src={require("../assets/img/projects/bobaorbust.png")} alt="..." />
                   <CardBody>
                     <CardTitle tag="h4">Boba or Bust</CardTitle>
@@ -83,7 +83,7 @@ export default function Projects() {
                     </Button>
                   </CardBody>
                 </Card>
-                <Card className="text-center" style={{ width: "30rem", margin: "2rem" }}>
+                <Card className="text-center" style={{ margin: "2rem" }}>
                   <CardImg top src={require("../assets/img/projects/personalweb.png")} alt="..." />
                   <CardBody>
                     <CardTitle tag="h4">Personal Website</CardTitle>
@@ -107,7 +107,7 @@ export default function Projects() {
                 </Card>
               </CardGroup>
               <CardGroup style={{ width: "100%" }}>
-                <Card className="text-center" style={{ width: "30rem", margin: "2rem" }}>
+                <Card className="text-center" style={{ margin: "2rem" }}>
                   <CardImg top src={require("../assets/img/projects/fse.png")} alt="..." />
                   <CardBody>
                     <CardTitle tag="h4">Interactive Painting App</CardTitle>
@@ -122,7 +122,7 @@ export default function Projects() {
                     </Button>
                   </CardBody>
                 </Card>
-                <Card className="text-center" style={{ width: "30rem", margin: "2rem" }}>
+                <Card className="text-center" style={{ margin: "2rem" }}>
                   <CardImg top src={require("../assets/img/projects/imageprocesser.png")} alt="..." />
                   <CardBody>
                     <CardTitle tag="h4">Image Processing App</CardTitle>
@@ -137,7 +137,7 @@ export default function Projects() {
                     </Button>
                   </CardBody>
                 </Card>
-                <Card className="text-center" style={{ width: "30rem", margin: "2rem" }}>
+                <Card className="text-center" style={{ margin: "2rem" }}>
                   <CardImg top src={require("../assets/img/projects/othello.png")} alt="..." />
                   <CardBody>
                     <CardTitle tag="h4">Othello Classic Boardgame</CardTitle>
