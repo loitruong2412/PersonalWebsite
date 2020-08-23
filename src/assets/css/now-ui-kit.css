@@ -5288,7 +5288,7 @@ img {
     margin-left: 0;
     margin-bottom: 30px; } }
 
-@media (max-width: 575px) {
+@media screen and (max-width: 800px) {
   .card-group {
     flex-flow: column;
   }
