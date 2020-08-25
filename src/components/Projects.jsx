@@ -127,7 +127,7 @@ export default function Projects() {
                   <CardBody>
                     <CardTitle tag="h4">Image Processing App</CardTitle>
                     <CardSubtitle>Java</CardSubtitle>
-                    <CardText>An application developed by 2 teammates and written in Java for processing images with filters such as sepia, greyscale, blur, sharpen, mosaic by using k-means clustering algorithm and matrix multiplication. The app has a GUI (using Java Swing) that allows users to undo or redo the steps.</CardText>
+                    <CardText>An application developed by me and another teammate and written in Java for processing images with filters such as sepia, greyscale, blur, sharpen, mosaic by using k-means clustering algorithm and matrix multiplication. The app has a GUI (using Java Swing) that allows users to undo or redo the steps, as well as save the newly edited image to local computer.</CardText>
                     <Button
                       color="info"
                       href="https://github.com/loitruong2412/Academic-Projects/tree/master/Image%20Processing%20Application%20in%20Java"

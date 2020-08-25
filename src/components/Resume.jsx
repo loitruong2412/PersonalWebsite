@@ -169,7 +169,7 @@ export default function Resume() {
                         </Progress>
                       </div>
                       <div>
-                        <span className="progress-badge">Database (MySQL, NoSQL, MongoDB)</span>
+                        <span className="progress-badge">Database (MySQL, NoSQL, MongoDB, PostgreSQL)</span>
                         <Progress max="100" value="70">
                           <span className="progress-value">70%</span>
                         </Progress>
@@ -205,7 +205,7 @@ export default function Resume() {
                     jobTitle="Software Engineer Co-op"
                     company="Vecna Technologies"
                     location="Burlington, MA"
-                    jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                    jobDescription={["Assist with the mobile API project by documenting, creating Mock DTOs, and testing the endpoints on Swagger UI", <br/>, <br/>, "Implement static content in mobile API project so the static content server could utilize mobile API’s endpoints", <br/>, <br/>, "Persist patient’s surveys via XML files and stamp answers from surveys onto PDF for client Yavapai Regional Medical Center, and use PostgreSQL to verify the Spring beans"]}
                   />
                   <Experience
                     startYear="Jan 2019"
@@ -254,7 +254,7 @@ export default function Resume() {
                     school="Northeastern University - Khoury College of Computer Sciences (Boston, MA)"
                     degree="Candidate for Master of Science Degree in Computer Science"
                     location="Boston, MA"
-                    gpa="GPA: 3.86/4.0"
+                    gpa="GPA: 3.87/4.0"
                     concentration="Concentration: Software Engineering"
                     courses="Related Coursework: Web Development, Foundations of Software Engineering, Mobile Application Development, Database Management Systems, Object-Oriented Design, Foundations of Artificial Intelligence"
                   />
