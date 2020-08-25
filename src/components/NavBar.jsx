@@ -108,7 +108,7 @@ function NavBar() {
                   nav
                   // onClick={e => e.preventDefault()}
                 >
-                  <i className="fas fa-info-circle"></i>
+                  <i class="fas fa-camera-retro"></i>
                   {' '}
                   <p>Hobbies</p>
                 </DropdownToggle>
