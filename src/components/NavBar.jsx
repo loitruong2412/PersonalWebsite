@@ -11,7 +11,6 @@ import {
   NavbarBrand,
   Navbar,
   NavItem,
-  NavLink,
   Nav,
   Container
 } from "reactstrap";
@@ -98,7 +97,7 @@ function NavBar() {
                   <p>Resume</p>
                 </Link>
               </NavItem>
-              {/* <UncontrolledDropdown nav inNavbar>
+              <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle
                   aria-haspopup={true}
                   caret
@@ -107,27 +106,26 @@ function NavBar() {
                   href="#pablo"
                   id="navbarDropdownMenuLink"
                   nav
-                  onClick={e => e.preventDefault()}
+                  // onClick={e => e.preventDefault()}
                 >
                   <i className="fas fa-info-circle"></i>
                   {' '}
-                  <p>Profile</p>
+                  <p>Hobbies</p>
                 </DropdownToggle>
                 <DropdownMenu aria-labelledby="navbarDropdownMenuLink">
-                <Link to="/about">
-                  <DropdownItem
-                    >                  
-                      ABOUT ME
-                  </DropdownItem>
-                </Link>
-                  <DropdownItem
+                  <Link to="/photography">
+                    <DropdownItem>                  
+                      Photography
+                    </DropdownItem>
+                  </Link>
+                  {/* <DropdownItem
                     href="#pablo"
                     onClick={e => e.preventDefault()}
                   >
                     RESUME
-                  </DropdownItem>
+                  </DropdownItem> */}
                 </DropdownMenu>
-              </UncontrolledDropdown> */}
+              </UncontrolledDropdown>
               <NavItem>
                 <Link to="/projects" className="nav-link">
                   <i className="far fa-folder-open"></i>
