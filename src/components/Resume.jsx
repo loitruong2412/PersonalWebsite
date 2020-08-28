@@ -125,7 +125,7 @@ export default function Resume() {
                     <h5>
                       <i className="fas fa-home"></i>
                       {' '}
-                      109 Summer St, Apt 316, Malden, MA 02148
+                      Malden, MA 02148
                     </h5>
                     <h5>
                       <i className="fas fa-phone-square"></i>
