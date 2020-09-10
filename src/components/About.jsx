@@ -33,7 +33,7 @@ export default function About() {
             <h5 className="description">
             <p>I'm a Software Engineer/Developer based in Boston.
             In 2017, I acquired my BS in Business Administration from Northeastern University.
-            Feeling stuck and not belong in the financial industry, 
+            Feeling stuck and estranged in the financial industry, 
             I decided to switch to Computer Science and found my true calling as a Software Engineer/Developer. 
             I'm currently enrolled in the MS in CS program at my alma mater, being set to graduate in May 2021. </p>
             </h5>
