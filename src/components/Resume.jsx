@@ -205,7 +205,7 @@ export default function Resume() {
                     jobTitle="Software Engineer Co-op"
                     company="Vecna Technologies"
                     location="Burlington, MA"
-                    jobDescription={["Assist with the mobile API project by documenting, creating Mock DTOs, and performing REST API Testing using Karate framework", <br/>, <br/>, "Implement static content in mobile API project so the static content server could utilize mobile API’s endpoints", <br/>, <br/>, "Persist patient’s surveys via XML files and stamp answers from surveys onto PDF for client Yavapai Regional Medical Center, and use PostgreSQL to verify the Spring beans"]}
+                    jobDescription={["Assist with the mobile API project by documenting, creating Mock DTOs, and performing REST API Testing using Karate framework", <br/>, <br/>, "Implement static content in mobile API project so the static content server could utilize mobile API’s endpoints", <br/>, <br/>, "Persist patient’s surveys via XML files and stamp answers from surveys onto PDF for client Yavapai Regional Medical Center, and use PostgreSQL to verify the survey properties"]}
                   />
                   <Experience
                     startYear="Jan 2019"
