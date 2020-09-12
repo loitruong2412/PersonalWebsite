@@ -44,7 +44,7 @@ export default function Projects() {
                   <CardBody>
                     <CardTitle tag="h4">Spendwise</CardTitle>
                     <CardSubtitle>MERN stack</CardSubtitle>
-                    <CardText>A fullstack web app using MERN stack with basic CRUD features and Mongoose schema for the back end that allows users to track income and expenses, and provides visualizations in the form of React charts.</CardText>
+                    <CardText>A fullstack web app using MERN stack with basic CRUD features and Mongoose schema for the back end that allows users to track income and expenses, and provides visualizations in the form of React charts. Completed through collaboration with 3 teammates.</CardText>
                     <Button
                       color="info"
                       target="_blank"
@@ -66,7 +66,7 @@ export default function Projects() {
                   <CardBody>
                     <CardTitle tag="h4">Boba or Bust</CardTitle>
                     <CardSubtitle>Java - Android Studio</CardSubtitle>
-                    <CardText>An interactive Android bubble tea-themed mobile game through collaboration with 3 teammatese that utilizes accelerometer sensor to allow users to tilt their device to catch the bubbles and stores users’ high scores using SQLite.</CardText>
+                    <CardText>An interactive Android bubble tea-themed mobile game through collaboration with 4 teammatese that utilizes accelerometer sensor to allow users to tilt their device to catch the bubbles and stores users’ high scores using SQLite.</CardText>
                     <Button
                       color="info"
                       target="_blank"
